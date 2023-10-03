@@ -1,0 +1,75 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos/estilos.css" type="text/css"/>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class = "header">
+            <nav class="nav">
+                <a href="formulario.html" class="logo nav-link">Formulario</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link" href ="ejemplo7.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href ="ejemplo2.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href ="ciudades.html">Ciudades</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href ="index.html">HomePage</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href ="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        
+        <aside class = "aside">
+            <h2 class = "noticia">Viaja con nosotros</h2>
+            <p> Mira esta pagina web!</p>
+        </aside>
+        
+        <section class = "section">
+            <article>
+                <header>
+                    <h2>Solicitud de viaje</h2>
+                    <h3>Te contactaremos lo mas pronto posible</h3>
+                </header>               
+                <form action="cliente/registro">
+                    <table border="0" cellspacing="5" cellpadding="5">
+                        <tbody>
+                            <tr>
+                                <td>Usuario</td>
+                                <td><input type="email" name="usuario" placeholder="correo@correo.com" size="25"/></td>
+                            </tr>
+                            <tr>
+                                <td>Destino</td>
+                                <td><input type="text" name="destino" size="30"/></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre</td>
+                                <td><input type="text" name="nombre" size="10" placeholder="Agregue su nombre"/></td>
+                            </tr>                            
+                            <tr>
+                                <td>Su foto</td>
+                                <td><input type="file" name="foto" accept="image/*"></td>
+                            </tr>
+                            <tr>
+                                <td>Telefono</td>
+                                <td><input type="tel" name="telefono" size="8"></td>
+                            </tr>
+                            <tr>
+                                <td>Direccion Exacta</td>
+                                <td><textarea name="direccion" rows="4" col="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Acciones</td>
+                                <td><input type="reset" value="Limpiar">
+                                    <input type="submit" value="Enviar">
+                                </td>                                   
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Si no te contestamos en las proximas 72 horas tu viaje es gratis</h4>
+                </form>
+            </article> 
+        </section>
+    </body>
+</html>
